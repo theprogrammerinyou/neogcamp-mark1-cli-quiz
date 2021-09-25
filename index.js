@@ -39,11 +39,11 @@ var questions = [
     answer: "hyderabad"
   },
   {
-    question: "What character does shivansh like ?",
+    question: "What character does shivansh like? ",
     answer: "batman"
   },
   {
-    question: "Where does shivansh likes to go? ?",
+    question: "Where does shivansh likes to go? ",
     answer: "Indore"
   }
 ];
@@ -55,4 +55,4 @@ for (var i = 0; i < questions.length; i++) {
   play(currentquestion.question, currentquestion.answer);
 }
 
-log(chalk.red(name , " your final score is : " , score));
+console.log(chalk.red(name , " your final score is : " , score));
