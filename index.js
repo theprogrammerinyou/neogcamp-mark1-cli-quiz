@@ -55,3 +55,4 @@ for (var i = 0; i < questions.length; i++) {
   play(currentquestion.question, currentquestion.answer);
 }
 
+log(chalk.red(name , " your final score is : " , score));
